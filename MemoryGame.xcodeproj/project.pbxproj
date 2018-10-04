@@ -54,14 +54,22 @@
 		BCE47F0221662B1600FEA992 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
-				BCE47F0321662B1600FEA992 /* AppDelegate.swift */,
 				BCE47F0521662B1600FEA992 /* ViewController.swift */,
 				BCE47F0721662B1600FEA992 /* Main.storyboard */,
-				BCE47F0A21662B1700FEA992 /* Assets.xcassets */,
-				BCE47F0C21662B1700FEA992 /* LaunchScreen.storyboard */,
+				BCE47F15216630D400FEA992 /* Supporting Files */,
 				BCE47F0F21662B1700FEA992 /* Info.plist */,
 			);
 			path = MemoryGame;
+			sourceTree = "<group>";
+		};
+		BCE47F15216630D400FEA992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE47F0321662B1600FEA992 /* AppDelegate.swift */,
+				BCE47F0A21662B1700FEA992 /* Assets.xcassets */,
+				BCE47F0C21662B1700FEA992 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
