@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var game = MemoryGame(numberOfPairsOfCards: (cardButtons.count + 1) / 2 ) 
+    lazy var game = MemoryGame(numberOfPairsOfCards: numberOfPairsOfCards )
         
+    var numberOfPairsOfCards: Int {
+        get {
+            return (cardButtons.count + 1) / 2
+        }
+    }
     
     var flipCount = 0 {
         didSet {
